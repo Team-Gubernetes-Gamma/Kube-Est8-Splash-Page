@@ -46,8 +46,8 @@ export default function Home() {
       </h1>
       <p class="mb-8 leading-relaxed">Track the health of your cluster at various levels. Understand resource usage of each deployment object, detect and anticipate bottlenecks before they occur, and scan your cluster for security vulnerabilities.</p>
       <div class="flex justify-center">
-        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+        <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"><a href="https://github.com/oslabs-beta/kube-est8" target="_blank" rel="noopener noreferrer">Get Started</a></button>
+        {/* <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button> */}
       </div>
     </div>
     <div class="lg:flex-grow lg:w-full md:w-1/2 w-5/6">
