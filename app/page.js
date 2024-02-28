@@ -19,7 +19,7 @@ export default function Home() {
           <a class="mr-5 hover:text-white">Third Link</a>
           <a class="mr-5 hover:text-white">Fourth Link</a> */}
         </nav>
-        <a href='#team' class="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:text-gray-100 rounded text-base mt-4 md:mt-0">Team
+        <a href='#team' class="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:text-gray-100 rounded text-base mt-4 md:mt-0">About Us 
         </a>
       </div>
     </header>
@@ -45,7 +45,7 @@ export default function Home() {
           <p class="mb-8 leading-relaxed">Track the health of your cluster at various levels. Understand resource usage of each deployment object, detect and anticipate bottlenecks before they occur, and scan your cluster for security vulnerabilities.</p>
           <div class="flex justify-center">
             <a href='https://github.com/oslabs-beta/kube-est8' class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Get Started!</a>
-            <a href='https://medium.com/' class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Read More</a>
+            <a href='https://medium.com/@ineschvz21/kubeest8-monitor-the-security-of-your-kubernetes-clusters-6ef01f3a7188' class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Read More</a>
           </div>
         </div>
         <div class="lg:flex-grow lg:w-full md:w-1/2 w-5/6">
@@ -139,7 +139,7 @@ export default function Home() {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Erika Wester</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
-            <p class="mb-4">Erika played a crucial role in scraping essential Kubernetes metrics, implementing OAuth, and ensuring security within our application. When she's not coding, she's probably off hiking a mountain somewhere.  </p>
+            <p class="mb-4">Erika worked on scraping essential Kubernetes metrics, implementing OAuth, and ensuring security within our application. When she's not coding, she's probably off hiking a mountain somewhere.  </p>
             <span class="inline-flex">
               <a href='https://www.linkedin.com/in/erika-wester/' class="text-gray-700">
                 <Image src='/linkedin.svg' width={24} height={24}/>
@@ -157,7 +157,7 @@ export default function Home() {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Brandon Hernandez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
-            <p class="mb-4">Brandon played a crucial role in structuring backend data, grabbing metrics, and rendering those metrics to the frontend. When he's not coding, he enjoys getting coffee with his girlfriend. </p>
+            <p class="mb-4">Brandon was responsible for handling backend data, grabbing metrics, and rendering those metrics to the frontend. When he's not coding, he enjoys getting coffee with his girlfriend. </p>
             <span class="inline-flex">
               <a href='https://www.linkedin.com/in/brandon-hernandez-valencia/' class="text-gray-700">
                 <Image src='/linkedin.svg' width={24} height={24}/>
@@ -175,7 +175,7 @@ export default function Home() {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Ines Chavez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
-            <p class="mb-4">Ines played a crucial role in creating the Flow Chart, enabling user-friendly access to users Nodes. When she's not coding she's working on creating better acccessiblity for users of all backgrounds.</p>
+            <p class="mb-4">Ines played a vital part in creating the Flow Chart, enabling user-friendly access to users Nodes. When she's not coding she's crafting unique crochet pieces and dedicating time to empower people with disabilities through inclusion and accessability.</p>
             <span class="inline-flex">
               <a href='https://www.linkedin.com/in/ines-chavez-vigueras-21a971242/' class="text-gray-700">
                 <Image src='/linkedin.svg' width={24} height={24}/>
