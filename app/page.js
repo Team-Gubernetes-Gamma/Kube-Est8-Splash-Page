@@ -40,7 +40,7 @@ export default function Home() {
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Kubernetes monitoring
-            <br class="hidden lg:inline-block"/>made simple.
+            <br class="hidden lg:inline-block"/> made simple.
           </h1>
           <p class="mb-8 leading-relaxed">Track the health of your cluster at various levels. Understand resource usage of each deployment object, detect and anticipate bottlenecks before they occur, and scan your cluster for security vulnerabilities.</p>
           <div class="flex justify-center">
@@ -157,7 +157,7 @@ export default function Home() {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Brandon Hernandez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
-            <p class="mb-4">[outline Brandon's role, experience, accomplishments, and/or interests here]</p>
+            <p class="mb-4">Brandon played a crucial role in structuring backend data, grabbing metrics, and rendering those metrics to the frontend. When he's not coding, he enjoys getting coffee with his girlfriend. </p>
             <span class="inline-flex">
               <a href='https://www.linkedin.com/in/brandon-hernandez-valencia/' class="text-gray-700">
                 <Image src='/linkedin.svg' width={24} height={24}/>
@@ -175,7 +175,7 @@ export default function Home() {
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Ines Chavez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
-            <p class="mb-4">[outline Ines's role, experience, accomplishments, and/or interests here]</p>
+            <p class="mb-4">Ines played a crucial role in creating the Flow Chart, enabling user-friendly access to users Nodes. When she's not coding she's working on creating better acccessiblity for users of all backgrounds.</p>
             <span class="inline-flex">
               <a href='https://www.linkedin.com/in/ines-chavez-vigueras-21a971242/' class="text-gray-700">
                 <Image src='/linkedin.svg' width={24} height={24}/>
