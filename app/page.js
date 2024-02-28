@@ -125,17 +125,17 @@ export default function Home() {
   <section class="text-gray-400 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="text-2xl font-medium title-font mb-4 text-white">OUR TEAM</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+      <h1 class="text-2xl font-medium title-font mb-4 text-white">MEET THE TEAM</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Determined engineers who brought our application to life.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/200x200"/>
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/C5603AQHJ2bCVAGCCLA/profile-displayphoto-shrink_800_800/0/1654382621047?e=1714608000&v=beta&t=5TwFJbnszrC6PkKcO-y-iWoJMbVrBJYZvlmF0n0mKYg"/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Alper Kamu</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 class="title-font font-medium text-lg text-white">Patrick Post</h2>
+            <h3 class="text-gray-500 mb-3">Software Engineer</h3>
+            <p class="mb-4">Patrick played a crucial role in both the front and back ends of our application. When he isn't coding, you can probably still find him on the computer playing games.</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -160,9 +160,9 @@ export default function Home() {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/201x201"/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Holden Caulfield</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 class="title-font font-medium text-lg text-white">Erika Wester</h2>
+            <h3 class="text-gray-500 mb-3">[Erika title here]</h3>
+            <p class="mb-4">[outlines Erika's role, experience, accomplishments, and/or interests.]</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -187,9 +187,9 @@ export default function Home() {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/202x202"/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Atticus Finch</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 class="title-font font-medium text-lg text-white">Brandon Hernandez</h2>
+            <h3 class="text-gray-500 mb-3">[Brandon title here]</h3>
+            <p class="mb-4">[outlines Brandon's role, experience, accomplishments, and/or interests.]</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
@@ -214,9 +214,9 @@ export default function Home() {
         <div class="h-full flex flex-col items-center text-center">
           <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="https://dummyimage.com/203x203"/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-white">Henry Letham</h2>
-            <h3 class="text-gray-500 mb-3">UI Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 class="title-font font-medium text-lg text-white">Ines Chavez</h2>
+            <h3 class="text-gray-500 mb-3">[Ines title here]</h3>
+            <p class="mb-4">[outlines Ines's role, experience, accomplishments, and/or interests.]</p>
             <span class="inline-flex">
               <a class="text-gray-700">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
