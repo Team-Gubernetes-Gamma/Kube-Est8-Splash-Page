@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+
   return (
     <main>
     {/*------------------------------HEADER BLOCK----------------------------------*/}
@@ -18,11 +19,8 @@ export default function Home() {
           <a class="mr-5 hover:text-white">Third Link</a>
           <a class="mr-5 hover:text-white">Fourth Link</a> */}
         </nav>
-        <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Button
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button>
+        <a href='#team' class="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:text-gray-100 rounded text-base mt-4 md:mt-0">Team
+        </a>
       </div>
     </header>
 
@@ -46,8 +44,8 @@ export default function Home() {
           </h1>
           <p class="mb-8 leading-relaxed">Track the health of your cluster at various levels. Understand resource usage of each deployment object, detect and anticipate bottlenecks before they occur, and scan your cluster for security vulnerabilities.</p>
           <div class="flex justify-center">
-            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-            <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Button</button>
+            <a href='https://github.com/oslabs-beta/kube-est8' class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Download</a>
+            <a href='https://medium.com/' class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Read More</a>
           </div>
         </div>
         <div class="lg:flex-grow lg:w-full md:w-1/2 w-5/6">
@@ -67,49 +65,37 @@ export default function Home() {
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col">
           <div class="h-1 bg-gray-800 rounded overflow-hidden">
-            <div class="w-24 h-full bg-indigo-500"></div>
+            <div class="w-48 h-full bg-indigo-500"></div>
           </div>
           <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-            <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Space The Final Frontier</h1>
-            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
+            <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Core features</h1>
+            <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Kube Est8 offers a robust set of features for monitoring your clusters. Future updates will include AI bottleneck detection as well as full cluster security vulnerability scan with RBAC visualization.</p>
           </div>
         </div>
         <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503"/>
+              <img alt="content" class="object-cover object-center h-full w-full" src="/screenshot-auth.jpeg"/>
             </div>
-            <h2 class="text-xl font-medium title-font text-white mt-5">Shooting Stars</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoindxgoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-xl font-medium title-font text-white mt-5">Data Privacy</h2>
+            <p class="text-base leading-relaxed mt-2">Sign in with Google OAuth to keep your cluster secure.</p>
+
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1204x504"/>
+              <img alt="content" class="object-cover object-center h-full w-full" src="/screenshot-nodegraph.jpeg"/>
             </div>
-            <h2 class="text-xl font-medium title-font text-white mt-5">The Catalyzer</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoindxigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-xl font-medium title-font text-white mt-5">Flow Graph</h2>
+            <p class="text-base leading-relaxed mt-2">Visualize your deployment object hierarchy as well as create and delete nodes.</p>
+
           </div>
           <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
             <div class="rounded-lg h-64 overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1205x505"/>
+              <img alt="content" class="object-cover object-center h-full w-full" src="/screenshot-nodedata.jpeg"/>
             </div>
-            <h2 class="text-xl font-medium title-font text-white mt-5">The 400 Blows</h2>
-            <p class="text-base leading-relaxed mt-2">Swag shoindegoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-            <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
+            <h2 class="text-xl font-medium title-font text-white mt-5">Node Metrics</h2>
+            <p class="text-base leading-relaxed mt-2">Collect up-to-date health metric information at the node-level of your cluster.</p>
+
           </div>
         </div>
       </div>
@@ -122,7 +108,7 @@ export default function Home() {
 
 
     {/* ---------------------------------MEET THE TEAM BLOCK------------------------------ */}
-  <section class="text-gray-400 body-font">
+  <section class="text-gray-400 body-font" id='team'>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="text-2xl font-medium title-font mb-4 text-white">MEET THE TEAM</h1>
