@@ -130,7 +130,7 @@ export default function Home() {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/C5603AQHJ2bCVAGCCLA/profile-displayphoto-shrink_800_800/0/1654382621047?e=1714608000&v=beta&t=5TwFJbnszrC6PkKcO-y-iWoJMbVrBJYZvlmF0n0mKYg"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4E03AQH0uS6YiBux8g/profile-displayphoto-shrink_800_800/0/1709602745142?e=1715817600&v=beta&t=rvqfTdi52lRoMUHtQfAthuJ8D3p_a0GiplJ5qs5Vn30"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Patrick Post</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
@@ -166,7 +166,7 @@ export default function Home() {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4D03AQHl3BKFlBzqcQ/profile-displayphoto-shrink_800_800/0/1708485463785?e=1714608000&v=beta&t=QHHNvKNg1tbSoTBbX9jqHeu05CCVoG-JE4C_He61j8Y"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4E03AQEyW_AfDELb1A/profile-displayphoto-shrink_800_800/0/1709665074835?e=1715817600&v=beta&t=a4LqtZG65BPRc77ocVXx458Pq01x15NeblYOyD-xjBQ"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Brandon Hernandez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
