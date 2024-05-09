@@ -42,7 +42,7 @@ export default function Home() {
       <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Kubernetes monitoring
-            <br class="hidden lg:inline-block"/>made simple.
+            <br class="hidden lg:inline-block"/> made simple.
           </h1>
           <p class="mb-8 leading-relaxed">Track the health of your cluster at various levels. Understand resource usage of each deployment object, detect and anticipate bottlenecks before they occur, and scan your cluster for security vulnerabilities.</p>
           <div class="flex justify-center">
@@ -130,7 +130,7 @@ export default function Home() {
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4E03AQH0uS6YiBux8g/profile-displayphoto-shrink_800_800/0/1709602745142?e=1715817600&v=beta&t=rvqfTdi52lRoMUHtQfAthuJ8D3p_a0GiplJ5qs5Vn30"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="/patrick.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Patrick Post</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
@@ -148,7 +148,7 @@ export default function Home() {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4E03AQHR-B8HBbeZ5g/profile-displayphoto-shrink_400_400/0/1706292981342?e=1714608000&v=beta&t=gh7XYmua3xw1kpYYPckqLDDMFEDn2mPqgkiifhiMvVo"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="/erika.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Erika Wester</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
@@ -166,7 +166,7 @@ export default function Home() {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/D4E03AQEyW_AfDELb1A/profile-displayphoto-shrink_800_800/0/1709665074835?e=1715817600&v=beta&t=a4LqtZG65BPRc77ocVXx458Pq01x15NeblYOyD-xjBQ"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="/brandon.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Brandon Hernandez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
@@ -184,7 +184,7 @@ export default function Home() {
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="https://media.licdn.com/dms/image/C5603AQFusB4XHNsDEw/profile-displayphoto-shrink_400_400/0/1655661933782?e=1714608000&v=beta&t=qdGp061Pglv92yu6sE2XMfb7PUyYymAWYZi6enI3dwA"/>
+          <img alt="team" class="hover:brightness-110 flex-shrink-0 rounded-lg w-full h-56 object-contain object-center mb-4" src="/ines.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-white">Ines Chavez</h2>
             <h3 class="text-gray-500 mb-3">Software Engineer</h3>
